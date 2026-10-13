@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base{
+  :root{
+    --primary: #09c206;
+  }
+}
+
+@theme {
+  --breakpoint-clg: 1550px;
+  --breakpoint-alg: 1197px;
+
+}
+
+@layer utilities{
+  .text-primary{
+    color: var(--primary);
+  }
+  .bg-primary{
+    background-color: var(--primary);
+  }
+  .border-primary{
+    border-color: var(--primary);
+  }
+  .from-primary{
+    --tw-gradient-from: var(--primary);
+  }
+  .to-primary{
+    --tw-gradient-to: var(--primary);
+  }
+  .via-primary{
+    --tw-gradient-via: var(--primary);
+  }
+  
+
+}
